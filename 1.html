@@ -1,0 +1,143 @@
+<html lang="en" class="__web-inspector-hide-shortcut__">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>函數應用</title>
+    <style id="__web-inspector-hide-shortcut-style__">
+        .__web-inspector-hide-shortcut__,
+        .__web-inspector-hide-shortcut__ *,
+        .__web-inspector-hidebefore-shortcut__::before,
+        .__web-inspector-hideafter-shortcut__::after {
+            visibility: hidden !important;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        var name = prompt("請輸入姓名:");
+        var NameNumber = prompt("請輸入身分證字號:");
+        var NameNumberStr1 = NameNumber.substring(0, 1);
+        var NameNumberStr2 = NameNumber.substring(1, 2);
+        document.write("您的姓名是:" + name)
+        switch (NameNumberStr1) {
+            case "A":
+            case "a":
+                document.write("<p>出生地:台北市");
+                break;
+            case "b":
+            case "B":
+                document.write("<p>出生地:台中市");
+                break;
+            case "C":
+            case "c":
+                document.write("<p>出生地:基隆市");
+                break;
+            case "D":
+            case "d":
+                document.write("<p>出生地:台南市");
+                break;
+            case "E":
+            case "e":
+                document.write("<p>出生地:高雄市");
+                break;
+            case "F":
+            case "f":
+                document.write("<p>出生地:新北市");
+                break;
+            case "G":
+            case "g":
+                document.write("<p>出生地:宜蘭縣");
+                break;
+            case "h,H":
+                document.write("<p>出生地:桃園市");
+                break;
+            case "i":
+            case "I":
+                document.write("<p>出生地:嘉義市");
+                break;
+            case "J":
+            case "j":
+                document.write("<p>出生地:新竹縣");
+                break;
+            case "k":
+            case "K":
+                document.write("<p>出生地:苗栗縣");
+                break;
+            case "M":
+            case "m":
+                document.write("<p>出生地:南投縣");
+                break;
+            case "n":
+            case "N":
+                document.write("<p>出生地:彰化縣");
+                break;
+            case "o":
+            case "O":
+                document.write("<p>出生地:新竹市");
+                break;
+            case "P":
+            case "p":
+                document.write("<p>出生地:雲林縣");
+                break;
+            case "q":
+            case "Q":
+                document.write("<p>出生地:嘉義縣");
+                break;
+            case "t":
+            case "T":
+                document.write("<p>出生地:屏東縣");
+                break;
+            case "u":
+            case "U":
+                document.write("<p>出生地:花蓮縣");
+                break;
+            case "v":
+            case "V":
+                document.write("<p>出生地:台東縣");
+                break;
+            case "w":
+            case "W":
+                document.write("<p>出生地:金門縣");
+                break;
+            case "x":
+            case "X":
+                document.write("<p>出生地:澎湖縣");
+                break;
+            case "z":
+            case "Z":
+                document.write("<p>出生地:連江縣");
+                break;
+            case "L":
+            case "l":
+                document.write("<p>出生地:台中縣");
+                break;
+            case "r":
+            case "R":
+                document.write("<p>出生地:台南縣");
+                break;
+            case "S":
+            case "s":
+                document.write("<p>出生地:高雄縣");
+                break;
+            case "Y":
+            case "y":
+                document.write("<p>出生地:陽明山");
+                break;
+        }
+        switch (NameNumberStr2) {
+            case "1":
+                document.write("<p>性別:男");
+                break;
+            case "2":
+                document.write("<p>性別:女");
+        }
+    </script>
+
+
+
+</body>
+
+</html>
